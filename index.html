@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hukum Ohm</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="box">
+
+  <h1>Kalkulator Hukum Ohm</h1>
+
+  <div class="atas">
+    <input type="number" id="v" placeholder="V" class="v">
+  </div>
+
+  <div class="bawah">
+
+    <input type="number" id="i" placeholder="I" class="i">
+
+    <input type="number" id="r" placeholder="R" class="r">
+
+  </div>
+
+  <button onclick="hitung()">
+    Hitung
+  </button>
+
+  <div class="hasil">
+
+    <p>Volt : <span id="hv">-</span></p>
+
+    <p>Arus : <span id="hi">-</span></p>
+
+    <p>Hambatan : <span id="hr">-</span></p>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
